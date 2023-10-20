@@ -6,7 +6,7 @@ route:
   - receiver: 'telegram'
     group_wait: 10s
     matchers:
-    - severity=~"warning|critical"
+    - severity=~"warning|critical|firing"
 
 receivers:
 - name: 'telegram'
