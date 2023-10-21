@@ -1,0 +1,11 @@
+apiVersion: 1
+providers:
+- name:
+  orgId: 1
+  folder: ''
+  folderUid: ''
+  type: file
+  disableDeletion: false
+  editable: true
+  optios:
+    patch: /etc/grafana/provisios/dashboards
